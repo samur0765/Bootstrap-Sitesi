@@ -1,0 +1,62 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.resimSlider{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+body{
+    padding-top: 50px;
+    font-family: "Raleway", serif;
+}
+
+.hakkimizda{
+    background-color: #f2f2f2;
+}
+
+.yaprak{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ibeyaz{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.igri{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+.card{
+    width: 400px;
+}
+.card img{
+    transition: all 0.4s;
+}
+
+.card img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.galeri{
+    background-color: #f2f2f2;
+}
+
+.figure:hover{
+    opacity: 0.8;
+}
